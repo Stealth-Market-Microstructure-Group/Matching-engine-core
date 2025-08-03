@@ -153,7 +153,7 @@ class OrderBook:
                     
                     self.trades.append(Trade('ka',O1.price,O1.qty,M_Order.agent_id,O1.agent_id,datetime.now(timezone.utc)))
                     
-                    ord_list.pop(i)    # update orderbook
+                    self.bids[m1].pop(i)    # update orderbook
                     
                     M_Order.qty = z    # quantity of Order updated  (Market Order)
                     
@@ -193,6 +193,7 @@ print(Odr_book.add_match_market_order(ord2))
 time.sleep(5)
 
 print(Odr_book)
+
 
 
 
