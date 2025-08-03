@@ -1,7 +1,7 @@
 # exchange-simulator
 
 ## Overview
-A custom Python-based exchange simulator built from scratch to understand market microstructure and prepare for trading competitions (e.g., IMC Prosperity).  
+A custom Python-based exchange simulator built from scratch to understand market microstructure and prepare for trading competitions (e.g., jane street , IMC Prosperity).  
 It implements core execution infrastructure so strategies can be plugged in, tested, and measured.
 
 ## Current Features
