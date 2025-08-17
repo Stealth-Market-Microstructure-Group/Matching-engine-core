@@ -22,9 +22,9 @@ It implements core execution infrastructure so strategies can be plugged in, tes
 - Modular separation: Order, Trade, OrderBook  
 - Simple baseline implementation using `defaultdict` for price levels
 
-## Roadmap / Planned Extensions
+## Roadmap / Planned Extensions (update)
 - Replace or augment the current data structures (beyond `defaultdict`) to handle higher throughput and large order books more efficiently  
-- REST API layer so external agents/strategies can place orders like clients of an exchange, without importing internal code  
+- sockets will be used ,so external agents/strategies can place orders like clients of an exchange, without importing internal code  
 - Automated agents (e.g., market-making) with dynamic quoting logic  
 - Inventory and PnL tracking per agent  
 - Strategy testing harness (simulated ticks, injected noise, stress scenarios)  
