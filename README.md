@@ -38,9 +38,9 @@ It implements core execution infrastructure so strategies can be plugged in, tes
 *(Detailed commands and examples will be added as the driver and agent layers mature.)*
 
 ## Motivation
-As i realized , i will need a platform to test and prepare for upcoming competetions , so i searched for platforms , but then realized Generic online backtesting platforms hide execution-level mechanics. I then decided to built this from scratch to gain full control over order matching, latency behavior, and strategy integration — enabling realistic practice and rapid iteration for competition-style algorithmic trading. Chose PYTHON for faster devlopment and to execute the ideas before i loss the momentum.
+As i realized , i will need a platform to test and prepare for upcoming competetions ,then realized Generic online backtesting platforms hide execution-level mechanics. I then decided to built this from scratch to gain full control over order matching, latency behavior, and strategy integration — enabling realistic practice and rapid iteration for competition-style algorithmic trading.
 
 ## Status & Next Steps
 - Core engine working: order book, matching, trade recording.  
-- In progress: building automated market-making agents, adding REST API interface, improving internal data structures for scale, and introducing PnL/inventory tracking.  
+- In progress: building automated market-making agents, sockets, improving internal data structures for scale, and introducing PnL/inventory tracking.  
 - Future: expand into stress-tested strategy scenarios and add lightweight visualization for analysis.
