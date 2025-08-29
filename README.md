@@ -38,7 +38,8 @@ It implements core execution infrastructure so strategies can be plugged in, tes
 *(Detailed commands and examples will be added as the driver and agent layers mature.)*
 
 ## Motivation
-As i realized , i will need a platform to test and prepare for upcoming competetions ,then realized Generic online backtesting platforms hide execution-level mechanics. I then decided to built this from scratch to gain full control over order matching, latency behavior, and strategy integration — enabling realistic practice and rapid iteration for competition-style algorithmic trading.
+As i realized , our research group will need a platform to test the findings of research and modeling , but as online backtesting platforms hide execution-level mechanics. I then decided to built this from scratch to gain full control over order matching, latency behavior, and strategy integration — enabling realistic practice and rapid iteration for competition-style algorithmic trading. 
+UPDATE:  WE ARE PLANNING TO EXECUTE A SYSTEM DIRECTLY WITH THE CURRENT ONE FOR EXTERNAL DATA INSERTION, (ITCH FEEED ), AS TO MAKE SURE WE REFLECT THE ORIGINAL MARKET DYNAMICS!
 
 ## Status & Next Steps
 - Core engine working: order book, matching, trade recording.  
