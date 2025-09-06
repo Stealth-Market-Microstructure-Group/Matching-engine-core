@@ -1,5 +1,8 @@
 # High-Fidelity Exchange Simulation Core
 
+## Author
+* **Pankaj J.** - ([@pankajj6](https://github.com/pankajj6))
+
 ## Project Mandate
 This repository contains the core engine for our group's proprietary market simulator. Its purpose is to provide a deterministic, high-fidelity environment for testing quantitative models and hypotheses against realistic market mechanics. It is a foundational piece of our research infrastructure.
 
